@@ -17,7 +17,7 @@ public class WhenYouCreateAGrid {
     @Test
     public void aNewGridShouldBeEmpty() {
         Grid grid = new Grid();
-        assertThat(grid.toString(), is(EMPTY_GRID));
+        assertThat(grid.toString(), isNot(EMPTY_GRID));
     }
 
     @Test
