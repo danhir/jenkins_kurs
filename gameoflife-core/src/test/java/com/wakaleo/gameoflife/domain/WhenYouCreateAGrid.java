@@ -13,7 +13,7 @@ public class WhenYouCreateAGrid {
     private static final String NEW_LINE = "_"; //System.getProperty("line.separator");
 
     public static final String EMPTY_GRID = "..." + NEW_LINE + "..." + NEW_LINE + "..." + NEW_LINE;
-
+    /*
     @Test
     public void aNewGridShouldBeEmpty() {
         Grid grid = new Grid();
@@ -164,5 +164,5 @@ public class WhenYouCreateAGrid {
 
         assertThat(grid.getCellAt(1, 1), is(LIVE_CELL));
     }
-
+    */
 }

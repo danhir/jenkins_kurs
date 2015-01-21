@@ -16,7 +16,7 @@ public class WhenYouCreateANewUniverse {
 
     public static final String EMPTY_GRID = "..." + NEW_LINE + "..." + NEW_LINE + "..." + NEW_LINE + "";
 
-    @Test
+    /*    @Test
     public void aNewUniverseShouldContainOnlyDeadCells() {
         Universe theUniverse = new Universe();
         String currentGrid = theUniverse.getGrid();
@@ -139,6 +139,6 @@ public class WhenYouCreateANewUniverse {
 
         assertThat(theUniverse.getCells(), is(expectedCells));
     }
-
+    */
 
 }
