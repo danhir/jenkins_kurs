@@ -37,7 +37,7 @@ public class WhenYouCreateANewUniverse {
     public void aUniverseCanBeInitializedWithAnyDimension() {
         String expectedGrid = "....." + NEW_LINE + "....." + NEW_LINE + "....." + NEW_LINE + "....." + NEW_LINE + "";
 
-        Universe theUniverse = new Universe(4, 6);
+        Universe theUniverse = new Universe(4, 5);
         String currentGrid = theUniverse.getGrid();
         assertThat(currentGrid, is(expectedGrid));
 
