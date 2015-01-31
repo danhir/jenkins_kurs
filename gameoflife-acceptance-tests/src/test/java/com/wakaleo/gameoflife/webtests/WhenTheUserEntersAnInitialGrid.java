@@ -29,7 +29,7 @@ public class WhenTheUserEntersAnInitialGrid {
 
 
     final static String[][] EMPTY_GRID
-            = new String[][]{{".", ".", "."},
+            = new String[][]{{"*", ".", "."},
             {".", ".", "."},
             {".", ".", "."}};
 
