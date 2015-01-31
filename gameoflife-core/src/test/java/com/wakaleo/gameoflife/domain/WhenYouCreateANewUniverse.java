@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.*;
 
 public class WhenYouCreateANewUniverse {
 
-    private static final String NEW_LINE = System.getProperty("line.separator");
+    private static final String NEW_LINE = "x"; //System.getProperty("line.separator");
 
     public static final String EMPTY_GRID = "..." + NEW_LINE + "..." + NEW_LINE + "..." + NEW_LINE + "";
 
