@@ -11,9 +11,10 @@ import static org.hamcrest.Matchers.*;
 
 public class WhenYouPlayTheGameOfLife {
 
+    //Newline comment
     private final String NEW_LINE = System.getProperty("line.separator");
 
-    @Test
+    /*    @Test
     public void aDeadCellWithNoNeighboursShouldRemainDeadInTheNextGeneration() {
         String initialGrid = "..." + NEW_LINE +
                 "..." + NEW_LINE +
@@ -97,4 +98,5 @@ public class WhenYouPlayTheGameOfLife {
         String nextGrid = theUniverse.getGrid();
         assertThat(nextGrid, is(expectedNextGrid));
     }
+    */
 }
