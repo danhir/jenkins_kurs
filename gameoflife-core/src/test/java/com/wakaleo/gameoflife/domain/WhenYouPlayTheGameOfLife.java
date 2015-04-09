@@ -12,6 +12,7 @@ import static org.hamcrest.Matchers.*;
 public class WhenYouPlayTheGameOfLife {
 
     //Newline comment
+    //Adding more comments 
     private final String NEW_LINE = System.getProperty("line.separator");
 
     /*    @Test
